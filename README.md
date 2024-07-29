@@ -29,7 +29,7 @@ This project demonstrates a simple packet-based communication system using `sock
    ```
    node client.js
    ```
-   -The client will connect to the server, request all packets, handle any missing packets, and save the received packets to output.json.
+   The client will connect to the server, request all packets, handle any missing packets, and save the received packets to output.json.
 5. **Project Structure**
   ```
 ├── node_modules/
@@ -39,6 +39,10 @@ This project demonstrates a simple packet-based communication system using `sock
 ├── package-lock.json
 └── README.md
   ```
+- server.js: The server-side code that handles packet emission and client connections using socket.io.
+- client.js: Contains the client-side code that connects to the server, requests packets, handles missing packets, and saves the data to output.json.
+- package.json: Lists the project dependencies.
+- README.md: Project documentation.
 
    
 
